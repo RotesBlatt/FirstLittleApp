@@ -1,0 +1,55 @@
+<resources>
+    <string name="app_name">FirstLittleApp</string>
+    <string name="school_text">Hallo St. Leonhard</string>
+    <string name="name_text">Name:</string>
+    <string name="input_editText">Name</string>
+    <string name="input_button">Absenden</string>
+    <string name="naechsteActivity_button">Next</string>
+    <string name="zurueckActivity_button">Back</string>
+    <string name="output_text">Name</string>
+    <string name="missingName_text">Es wurde kein Name eingegeben</string>
+    <string name="randomImageDescription_text">Random image</string>
+    <string name="title_activity_listview">Zufällige Namen</string>
+    <string name="nameToShort_text">Der Name muss mindestens 8 Zeichen haben</string>
+    <string name="noNumberGiven_text">Bitte geben sie die Anzahl an ListView-Elementen an</string>
+    <string name="shuffle_button">Shuffle</string>
+    <string name="hintNumber_text">Zahl</string>
+    
+    <string name="action_settings">Einstellungen</string>
+    <string name="action_delete_all">Alles Löschen</string>
+    <string name="action_about">About this App</string>
+    <!--
+    This string is used for square devices and overridden by hello_world in
+    values-round/strings.xml for round devices.
+    -->
+    <string name="hello_world">Hello Square World!</string>
+    
+    <string name="listViewName_text">Tom Paris</string>
+    <string name="listViewSample_text">Well, you have done it again, Harry.</string>
+
+    <string name="preference_category_title">Datenabfrage</string>
+    <string name="preference_xmlmode_title">XML-Daten verwenden</string>
+    <string name="preference_xmlmode_key">key_xml_mode</string>
+    <string name="preference_xmlmode_summary_on">Es werden XML-Daten vom Webserver angefordert.</string>
+    <string name="preference_xmlmode_summary_off">Der XML-Datenmodus ist deaktiviert.</string>
+
+    <string name="preference_quotecount_title">Anzahl angeforderte Zitate</string>
+    <string name="preference_quotecount_key">key_quote_count</string>
+    <string name="preference_quotecount_summary">Zitate werden pro Anfrage vom Webserver angefordert.</string>
+    <string name="preference_quotecount_dialog_unit">Zitate</string>
+    <string name="preference_quotecount_dialog_positive_button_text">OK</string>
+    <string name="preference_quotecount_dialog_negative_button_text">Abbrechen</string>
+    <string name="preference_quotecount_dialog_title">Wie viele Zitate sollen angefordert werden?</string>
+
+    <string name="preference_category_randomimage_title">Random Image</string>
+    <string name="preference_randomimage_title">Random Image verwenden</string>
+    <string name="preference_randomimage_key">key_random_image</string>
+    <string name="preference_randomimage_summary_on">Es werden Random Images benutzt</string>
+    <string name="preference_randomimage_summary_off">Es wird kein Random Image benutzt</string>
+    
+    <string name="preference_about_key">key_about</string>
+    <string name="preference_about_title">About this App</string>
+    <string name="preference_about_summary">Diese App ist entstanden im Projektkurs Informatik am SLG und wurde Programmiert von Jonathan L.</string>
+
+    <string name="text_about">Diese App ist entstanden im Projektkurs Informatik am SLG und wurde Programmiert von Jonathan L.</string>
+</resources>

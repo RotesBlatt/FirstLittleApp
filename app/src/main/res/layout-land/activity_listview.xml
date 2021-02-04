@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/colorDivider">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_gravity="center">
+
+        <EditText
+            android:id="@+id/randomName_EditText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="textPersonName"
+            android:hint="@string/name_text"
+            android:layout_margin="@dimen/default_margin"
+            android:textSize="@dimen/default_font_size"/>
+
+        <Button
+            android:id="@+id/button_activity_main"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/default_margin"
+            android:textSize="@dimen/default_font_size"
+            android:text="@string/shuffle_button"
+            android:onClick="createRandomNameList"
+            android:layout_gravity="right"/>
+
+
+    </LinearLayout>
+
+
+    <ListView
+        android:id="@+id/listview_activity_listview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginEnd="@dimen/default_margin"
+        android:layout_marginStart="@dimen/default_margin"
+        android:divider="@color/colorDivider"
+        android:dividerHeight="@dimen/default_margin" />
+
+</LinearLayout>

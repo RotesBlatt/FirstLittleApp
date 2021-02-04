@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="randomName_array">
+        <item>handofbloodimpool</item>
+        <item>handofbloodamsteuer</item>
+        <item>handofblood</item>
+        <item>handofbloodchillen</item>
+        <item>handofbloodstudent</item>
+        <item>handofbloodsexy</item>
+        <item>handofbloodtoilettenpapier</item>
+    </string-array>
+
+</resources>

@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:background="@color/colorDivider"
+    tools:context=".MainActivity">
+
+    <androidx.appcompat.widget.Toolbar
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/toolbar_mainactivity"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:background="@color/design_default_color_primary"
+        android:elevation="@dimen/toolbar_elevation"
+        android:theme="@style/Theme.AppCompat.Light.DarkActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"
+        />
+
+    <TextView
+        android:id="@+id/centered_top_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="@dimen/default_margin"
+        android:text="@string/school_text"
+        android:textSize="@dimen/default_font_size" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:layout_gravity="center"
+        tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/name_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:text="@string/name_text"
+            android:textSize="@dimen/default_font_size" />
+
+        <EditText
+            android:id="@+id/name_input_EditText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:ems="10"
+            android:hint="@string/input_editText"
+            android:inputType="textPersonName"
+            android:textSize="@dimen/default_font_size" />
+
+        <Button
+            android:id="@+id/input_Button"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/default_margin"
+            android:onClick="onClick"
+            android:text="@string/input_button"
+            android:textSize="@dimen/default_font_size" />
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/centered_bottom_TextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="@dimen/default_margin"
+        android:hint="@string/output_text"
+        android:textSize="@dimen/default_font_size" />
+
+    <Button
+        android:id="@+id/nextActivity_Button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/naechsteActivity_button"
+        android:layout_gravity="center"
+        android:onClick="changeActivityListView"/>
+
+    <ImageView
+        android:id="@+id/randomImage_ImageView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="@string/randomImageDescription_text"
+        app:srcCompat="@drawable/handofblood" />
+
+</LinearLayout>
+
